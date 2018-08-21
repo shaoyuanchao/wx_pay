@@ -67,7 +67,7 @@ $data['code'] = $code;
 //把订单信息写入数据库
 //$ret = ins_order_info($data);
 ?>
-
+//调用微信支付接口
 <script>
     function onBridgeReady(){
         WeixinJSBridge.invoke(
