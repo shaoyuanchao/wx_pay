@@ -18,5 +18,8 @@ CREATE TABLE `order_list` (
   `flag` tinyint(1) DEFAULT NULL COMMENT '订单状态',
   `utime` int(11) DEFAULT NULL COMMENT '更新时间戳',
   `ctime` datetime DEFAULT NULL COMMENT '创建时间',
+  `name` varchar(255) NOT NULL COMMENT '用户购买时姓名',
+  `address` varchar(255) NOT NULL COMMENT '用户地址信息',
+  `phone` text NOT NULL COMMENT '用户手机号',
   PRIMARY KEY (`oid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT '订单信息表';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='订单信息表';
