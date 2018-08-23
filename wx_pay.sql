@@ -2,7 +2,7 @@ CREATE TABLE `good_list` (
 `code` varchar(255) NOT NULL COMMENT '商品编号',
 `count` int(11) DEFAULT NULL COMMENT '商品总数量',
 `rema_count` int(11) DEFAULT NULL COMMENT '剩余数量',
-`sold_coount` int(11) DEFAULT NULL COMMENT '已售数量',
+`sold_count` int(11) DEFAULT NULL COMMENT '已售数量',
 `info` varchar(255) DEFAULT NULL COMMENT '商品描述',
 `price` int(10) DEFAULT NULL COMMENT '商品价格',
 `utime` int(11) DEFAULT NULL COMMENT '更新时间',
